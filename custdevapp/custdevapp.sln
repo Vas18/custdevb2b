@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csChatBot", "azFunction\csChatBot\csChatBot.csproj", "{1C74F01C-4CFC-4080-92AD-F640CBB0C493}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "azFunctions", "azFunctions", "{188EC0AF-0656-4472-A60D-879F85CA16A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{6481A2AD-AD76-4ECB-9D55-30E7567C4E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custdev.domain", "custdev.domain\custdev.domain.csproj", "{FDA59FD7-3B28-4BF9-9EBB-D1AB1E1C446E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{18BFC0F7-BF86-4AE7-AF2B-AD36320BEC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custdev.business", "custdev.business\custdev.business.csproj", "{4A421018-E5D4-4F7A-94E9-A33C58618D77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{DA7F1EE7-4BC7-4CAC-BB86-6ED5972A1134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custdev.db.cosmos", "custdev.db.cosmos\custdev.db.cosmos.csproj", "{A8FA207B-1D8D-407B-938C-FFD76A7B5B39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C74F01C-4CFC-4080-92AD-F640CBB0C493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C74F01C-4CFC-4080-92AD-F640CBB0C493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C74F01C-4CFC-4080-92AD-F640CBB0C493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C74F01C-4CFC-4080-92AD-F640CBB0C493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA59FD7-3B28-4BF9-9EBB-D1AB1E1C446E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA59FD7-3B28-4BF9-9EBB-D1AB1E1C446E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA59FD7-3B28-4BF9-9EBB-D1AB1E1C446E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA59FD7-3B28-4BF9-9EBB-D1AB1E1C446E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A421018-E5D4-4F7A-94E9-A33C58618D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A421018-E5D4-4F7A-94E9-A33C58618D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A421018-E5D4-4F7A-94E9-A33C58618D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A421018-E5D4-4F7A-94E9-A33C58618D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FA207B-1D8D-407B-938C-FFD76A7B5B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FA207B-1D8D-407B-938C-FFD76A7B5B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FA207B-1D8D-407B-938C-FFD76A7B5B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FA207B-1D8D-407B-938C-FFD76A7B5B39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C74F01C-4CFC-4080-92AD-F640CBB0C493} = {188EC0AF-0656-4472-A60D-879F85CA16A1}
+		{FDA59FD7-3B28-4BF9-9EBB-D1AB1E1C446E} = {6481A2AD-AD76-4ECB-9D55-30E7567C4E6C}
+		{4A421018-E5D4-4F7A-94E9-A33C58618D77} = {18BFC0F7-BF86-4AE7-AF2B-AD36320BEC11}
+		{A8FA207B-1D8D-407B-938C-FFD76A7B5B39} = {DA7F1EE7-4BC7-4CAC-BB86-6ED5972A1134}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/custdevapp/.vs
+/.vs
+/custdevapp/custdev.business/bin/Debug/net8.0
+/custdevapp/custdev.business/obj
+/custdevapp/custdev.db.cosmos/bin/Debug/net8.0
+/custdevapp/custdev.db.cosmos/obj
+/custdevapp/custdev.domain/bin/Debug/net8.0
+/custdevapp/custdev.domain/obj
